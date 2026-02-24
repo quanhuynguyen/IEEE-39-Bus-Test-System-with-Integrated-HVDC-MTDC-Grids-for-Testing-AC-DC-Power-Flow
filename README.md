@@ -26,3 +26,17 @@ This repository provides a version of the IEEE 39-bus (New England) test system,
    - Converter losses: For solving AC-DC power flow, converter loss can be calculated as follows:
       Loss = a +b * abs(I_ac) + c * abs(I_ac)**2
       where a = 0.01549752, b = 0.000474217, c = 0.003306, and I_ac is the AC-side converter current in p.u w.r.t Sbase = 100 MVA.
+
+2) OUTPUTS
+
+   AC grid:
+   - The output AC grid with equivalent generators representing HVDC converters and corresponding dispatch is represented in ac_Equivalent_MTdcConverters_scaleLoad.sav. Note that
+   converters are operating in ac-voltage control mode instead of reactive power control mode for this case study.
+
+   DC grid:
+   - The DC voltages are included in file xSolution_Voltages_HVdc1.csv
+   - The DC line power is included in file xSolution_LinePowers_HVdc1.csv
+   - The AC-side and DC-side power of converters is included in  xSolution_Converter_HVdc.csv. Nothe that the AC-side and DC-side power values are not the same because of converter
+     losses.
+
+
