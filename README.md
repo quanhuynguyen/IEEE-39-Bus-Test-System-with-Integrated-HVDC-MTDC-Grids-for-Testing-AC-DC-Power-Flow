@@ -12,8 +12,10 @@ This repository provides a version of the IEEE 39-bus (New England) test system,
 
 --- Power Flow Data of the AC-DC Systems:
 1) INPUTS
+
    AC grid:
    - The AC grid is based on the IEEE 39-bus system, and is represented in file IEEE39bus_Modified_v35.raw (if using PSSE) or IEEE39bus_Modified_v35.pwb (if using PowerWorld).  This is     the model without HVDC grid addition.
+   
    DC grid:
    - DC buses are included in DC_Buses.csv.
    - DC line resistances are included in DC_Lines.xlsx.
