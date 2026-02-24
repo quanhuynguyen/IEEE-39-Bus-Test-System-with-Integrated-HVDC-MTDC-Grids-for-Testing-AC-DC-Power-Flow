@@ -4,8 +4,8 @@ This repository provides a version of the IEEE 39-bus (New England) test system,
 
 --- AC-DC System Description:
 1) Baseline System
-   •	Based on the standard IEEE 39-bus system widely used for transmission-level dynamic and steady-state studies.
-   •	Preserves the original AC topology, generation dispatch structure, and load distribution for benchmarking consistency.
+   - Based on the standard IEEE 39-bus system widely used for transmission-level dynamic and steady-state studies.
+   - Preserves the original AC topology, generation dispatch structure, and load distribution for benchmarking consistency.
 3) Integrated HVDC and MTDC Configurations
    •	Point-to-point HVDC links embedded at selected AC buses.
    •	Multi-terminal DC (MTDC) grids with configurable topologies (radial, meshed, hybrid).
