@@ -24,7 +24,7 @@ This repository provides a version of the IEEE 39-bus (New England) test system,
       - Reactive power control modes (1: constant ac voltage, 2: constant reactive power, 3: constant power factor)
       - Pac-Vdc droop control depends on droop coefficient (0: cosntant Vdc control, 10^6: cosntant Pac control, others: normal droop with nonzero power deviation)
    - Converter losses: For solving AC-DC power flow, converter loss can be calculated as follows:
-      Loss = a +b * abs(I_ac) + c * abs(I_ac)**2
+      Loss = a + b * abs(I_ac) + c * abs(I_ac)^2
       where a = 0.01549752, b = 0.000474217, c = 0.003306, and I_ac is the AC-side converter current in p.u w.r.t Sbase = 100 MVA.
 
 2) OUTPUTS
