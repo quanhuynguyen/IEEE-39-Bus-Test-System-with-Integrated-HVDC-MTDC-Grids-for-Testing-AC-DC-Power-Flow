@@ -1,4 +1,4 @@
 AC BUSNAME,From AC-Grid Bus,To HVDC-Grid Bus,DC Grid Number,Control mode,Reactive control mode,Vac schedule,Power factor,Number of AC Load iterations,MW into AC Grid,Mvar into AC Grid,MW into HVDC Grid,R1 [pu],X1 [pu],Mbase,P_ref (MW),V_ref (pu),Kdroop,Icmax (pu),PQ priority,kPQ
-Bus 1,1,1,1,1,1,1.04887,,1,,,,0,0,500,-400,1.05,0,1,1,0.95
+Bus 1,1,1,1,1,1,1.04887,,1,,,,0,0,500,-400,1,0,1,1,0.95
 Bus 15,15,2,1,1,1,1.014713,,1,,,,0,0,300,250,1,0.2,1,1,0.95
 Bus 24,24,3,1,1,1,1.037811,,1,,,,0,0,300,150,1,1.00E+06,1,1,0.95
